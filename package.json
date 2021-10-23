@@ -23,7 +23,7 @@
     "typescript": "^4.4.4"
   },
   "scripts": {
-    "start": "yarn ts-node-dev --exit-child src/server.ts",
+    "start": "node src/server.js",
     "dev": "yarn ts-node-dev --exit-child src/server.ts"
   }
 }
